@@ -1,0 +1,307 @@
+{
+    "SurveyEntry": {
+        "SurveyID": "SV_8nXoxz1CpoJ0wB0",
+        "SurveyName": "Ad Textual Explanations",
+        "SurveyDescription": null,
+        "SurveyOwnerID": "UR_2lX9CzMTJnlQpyS",
+        "SurveyBrandID": "maastrichtuniversity",
+        "DivisionID": "DV_bJCLqvwg0LFkCUd",
+        "SurveyLanguage": "EN",
+        "SurveyActiveResponseSet": "RS_8jp7Px69XZh9JTo",
+        "SurveyStatus": "Inactive",
+        "SurveyStartDate": "0000-00-00 00:00:00",
+        "SurveyExpirationDate": "0000-00-00 00:00:00",
+        "SurveyCreationDate": "2025-06-02 08:19:07",
+        "CreatorID": "UR_2lX9CzMTJnlQpyS",
+        "LastModified": "2025-06-03 06:37:21",
+        "LastAccessed": "0000-00-00 00:00:00",
+        "LastActivated": "0000-00-00 00:00:00",
+        "Deleted": null
+    },
+    "SurveyElements": [
+        {
+            "SurveyID": "SV_8nXoxz1CpoJ0wB0",
+            "Element": "BL",
+            "PrimaryAttribute": "Survey Blocks",
+            "SecondaryAttribute": null,
+            "TertiaryAttribute": null,
+            "Payload": {
+                "1": {
+                    "Type": "Trash",
+                    "Description": "Trash \/ Unused Questions",
+                    "ID": "BL_425TX2IwsgngOIC",
+                    "BlockElements": []
+                },
+                "2": {
+                    "Type": "Standard",
+                    "SubType": "",
+                    "Description": "Default Question Block",
+                    "ID": "BL_0ieyRCmgZBVDBgq",
+                    "BlockElements": [
+                        {
+                            "Type": "Question",
+                            "QuestionID": "QID4"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "SurveyID": "SV_8nXoxz1CpoJ0wB0",
+            "Element": "FL",
+            "PrimaryAttribute": "Survey Flow",
+            "SecondaryAttribute": null,
+            "TertiaryAttribute": null,
+            "Payload": {
+                "Flow": [
+                    {
+                        "ID": "BL_0ieyRCmgZBVDBgq",
+                        "Type": "Standard",
+                        "FlowID": "FL_12"
+                    }
+                ],
+                "Properties": {
+                    "Count": 12
+                },
+                "FlowID": "FL_1",
+                "Type": "Root"
+            }
+        },
+        {
+            "SurveyID": "SV_8nXoxz1CpoJ0wB0",
+            "Element": "PL",
+            "PrimaryAttribute": "Preview Link",
+            "SecondaryAttribute": null,
+            "TertiaryAttribute": null,
+            "Payload": {
+                "PreviewType": "Brand",
+                "PreviewID": "6370b4c6-ce7c-478c-89fb-6f17ccf47c77"
+            }
+        },
+        {
+            "SurveyID": "SV_8nXoxz1CpoJ0wB0",
+            "Element": "PROJ",
+            "PrimaryAttribute": "CORE",
+            "SecondaryAttribute": null,
+            "TertiaryAttribute": "1.1.0",
+            "Payload": {
+                "ProjectCategory": "CORE",
+                "SchemaVersion": "1.1.0"
+            }
+        },
+        {
+            "SurveyID": "SV_8nXoxz1CpoJ0wB0",
+            "Element": "QC",
+            "PrimaryAttribute": "Survey Question Count",
+            "SecondaryAttribute": "4",
+            "TertiaryAttribute": null,
+            "Payload": null
+        },
+        {
+            "SurveyID": "SV_8nXoxz1CpoJ0wB0",
+            "Element": "RS",
+            "PrimaryAttribute": "RS_8jp7Px69XZh9JTo",
+            "SecondaryAttribute": "Default Response Set",
+            "TertiaryAttribute": null,
+            "Payload": null
+        },
+        {
+            "SurveyID": "SV_8nXoxz1CpoJ0wB0",
+            "Element": "SCO",
+            "PrimaryAttribute": "Scoring",
+            "SecondaryAttribute": null,
+            "TertiaryAttribute": null,
+            "Payload": {
+                "ScoringCategories": [],
+                "ScoringCategoryGroups": [],
+                "ScoringSummaryCategory": null,
+                "ScoringSummaryAfterQuestions": 0,
+                "ScoringSummaryAfterSurvey": 0,
+                "DefaultScoringCategory": null,
+                "AutoScoringCategory": null
+            }
+        },
+        {
+            "SurveyID": "SV_8nXoxz1CpoJ0wB0",
+            "Element": "SO",
+            "PrimaryAttribute": "Survey Options",
+            "SecondaryAttribute": null,
+            "TertiaryAttribute": null,
+            "Payload": {
+                "BackButton": "false",
+                "SaveAndContinue": "true",
+                "SurveyProtection": "PublicSurvey",
+                "BallotBoxStuffingPrevention": "false",
+                "NoIndex": "Yes",
+                "SecureResponseFiles": "true",
+                "SurveyExpiration": "None",
+                "SurveyTermination": "DefaultMessage",
+                "Header": "",
+                "Footer": "",
+                "ProgressBarDisplay": "None",
+                "PartialData": "+1 week",
+                "ValidationMessage": "",
+                "PreviousButton": "",
+                "NextButton": "",
+                "SurveyTitle": "Qualtrics Survey | Qualtrics Experience Management",
+                "SkinLibrary": "maastrichtuniversity",
+                "SkinType": "templated",
+                "Skin": {
+                    "brandingId": "1467450348",
+                    "templateId": "*base",
+                    "overrides": null
+                },
+                "NewScoring": 1,
+                "SurveyMetaDescription": "The most powerful, simple and trusted way to gather experience data. Start your journey to experience management and try a free account today."
+            }
+        },
+        {
+            "SurveyID": "SV_8nXoxz1CpoJ0wB0",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID4",
+            "SecondaryAttribute": "Click to write the question text",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "HJKFDHLJFKASHFALKSJDLKSAJNFLAF",
+                "DefaultChoices": false,
+                "DataExportTag": "Q4",
+                "QuestionType": "Matrix",
+                "Selector": "Likert",
+                "SubSelector": "SingleAnswer",
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText",
+                    "TextPosition": "inline",
+                    "ChoiceColumnWidth": 25,
+                    "RepeatHeaders": "none",
+                    "WhiteSpace": "OFF",
+                    "MobileFirst": true
+                },
+                "QuestionDescription": "Click to write the question text",
+                "Choices": {
+                    "1": {
+                        "Display": "trustworthiness"
+                    },
+                    "2": {
+                        "Display": "transparency"
+                    },
+                    "3": {
+                        "Display": "usefulness"
+                    }
+                },
+                "ChoiceOrder": [
+                    "1",
+                    "2",
+                    "3"
+                ],
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "OFF",
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": [],
+                "NextChoiceId": 4,
+                "NextAnswerId": 3,
+                "Answers": {
+                    "1": {
+                        "Display": "Explanation A"
+                    },
+                    "2": {
+                        "Display": "Explanation B"
+                    }
+                },
+                "AnswerOrder": [
+                    1,
+                    2
+                ],
+                "ChoiceDataExportTags": false,
+                "QuestionID": "QID4"
+            }
+        },
+        {
+            "SurveyID": "SV_8nXoxz1CpoJ0wB0",
+            "Element": "SQ",
+            "PrimaryAttribute": "QID34",
+            "SecondaryAttribute": "000000v000001",
+            "TertiaryAttribute": null,
+            "Payload": {
+                "QuestionText": "<table width=\"100%\" style=\"border: none;\" cellspacing=\"1\" cellpadding=\"1\" border=\"0\">\n\t<caption>The explanation pair to evaluate</caption>\n\t<thead>\n\t\t<tr>\n\t\t\t<th style=\"text-align: center; padding: 1em;\" scope=\"col\">Explanation A</th>\n\t\t\t<th style=\"text-align: center; padding: 1em;\" scope=\"col\">&nbsp;</th>\n\t\t\t<th style=\"text-align: center; padding: 1em;\" scope=\"col\">Explanation B</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"background-color: rgba(39, 129, 245, 0.05); border-radius: 10px; text-align: left; vertical-align: top; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); margin-right: 10px; min-width: 50%;\" class=\"explanation\">\n\n<h3>Product Recommendation: Artisanal Cheese Selection</h3>\n<p>This advertisement suggests an artisanal cheese selection, which aligns well with your interest based on several factors. Firstly, your viewing history shows you enjoy culinary-themed content, contributing significantly with 40% weight. Furthermore, your location suggests proximity to local gourmet shops, adding another 35%. Additionally, recent searches for cooking shows provide a supporting role, with a 25% weight. These elements collectively emphasize why this product could be highly relevant to your preferences.</p>\n</td>\n\t\t\t<td style=\"background-color: rgba(0, 0, 0, 0.00);\" class=\"explanation\">&nbsp;</td>\n\t\t\t<td style=\"background-color: rgba(39, 129, 245, 0.05); border-radius: 10px; text-align: left; vertical-align: top; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); margin-left: 10px; min-width: 50%;\" class=\"explanation\">\n<h3>Product Recommendation: Artisanal Cheese Selection</h3>\n<p>This advertisement offers an artisanal cheese selection, which may or may not suit your preferences. On one side, your interest in culinary content, evident from your viewing history, holds a positive 40% weight. Also, your local area suggests accessibility to specialty food shops, adding 35% in favor. Conversely, limited previous purchases of gourmet food items might argue against the relevance with a negative weight of -30%. Consider these aspects to decide if this product aligns with your interests.</p>\n</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<h3>&nbsp;</h3>\n\n<h3>Indicate which of the two explanations shown above feels more:<br></h3>",
+                "DefaultChoices": false,
+                "DataExportTag": "000000v000001",
+                "QuestionType": "Matrix",
+                "Selector": "Likert",
+                "SubSelector": "SingleAnswer",
+                "DataVisibility": {
+                    "Private": false,
+                    "Hidden": false
+                },
+                "Configuration": {
+                    "QuestionDescriptionOption": "UseText",
+                    "TextPosition": "inline",
+                    "ChoiceColumnWidth": 25,
+                    "MobileFirst": true,
+                    "RepeatHeaders": "none",
+                    "WhiteSpace": "OFF"
+                },
+                "QuestionDescription": "000000v000001",
+                "Choices": {
+                    "1": {
+                        "Display": "Useful"
+                    },
+                    "2": {
+                        "Display": "Transparent"
+                    },
+                    "3": {
+                        "Display": "Trustworthy"
+                    }
+                },
+                "ChoiceOrder": [
+                    "1",
+                    "2",
+                    "3"
+                ],
+                "Validation": {
+                    "Settings": {
+                        "ForceResponse": "ON",
+                        "ForceResponseType": "ON",
+                        "Type": "None"
+                    }
+                },
+                "GradingData": [],
+                "Language": [],
+                "NextChoiceId": 4,
+                "NextAnswerId": 3,
+                "Answers": {
+                    "1": {
+                        "Display": "Explanation A"
+                    },
+                    "2": {
+                        "Display": "Explanation B"
+                    }
+                },
+                "AnswerOrder": [
+                    1,
+                    2
+                ],
+                "ChoiceDataExportTags": false,
+                "QuestionID": "QID34"
+            }
+        },
+        {
+            "SurveyID": "SV_8nXoxz1CpoJ0wB0",
+            "Element": "STAT",
+            "PrimaryAttribute": "Survey Statistics",
+            "SecondaryAttribute": null,
+            "TertiaryAttribute": null,
+            "Payload": {
+                "MobileCompatible": true,
+                "ID": "Survey Statistics"
+            }
+        }
+    ]
+}

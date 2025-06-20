@@ -1,0 +1,7 @@
+"Predictor","Coefficient","SE","z","p_value","Significance"
+"(Intercept)",0.228,0.101,2.264,0.024,"*"
+"Detail",1.031,0.103,10.055,0,"***"
+"Formality",0.651,0.099,6.539,0,"***"
+"Length",0.985,0.102,9.62,0,"***"
+"Persuasiveness",-0.661,0.098,-6.756,0,"***"
+"Structure",-2.006,0.314,-6.389,0,"***"
