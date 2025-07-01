@@ -4,7 +4,7 @@ library(dplyr)
 library(stats)
 
 # Load the data
-data <- read.csv("../results/evaluations.csv")
+data <- read.csv("../results/evaluations_ads.csv")
 
 # Set categorical variables
 data$flipped_dim <- factor(data$flipped_dim, 
@@ -134,7 +134,7 @@ final_results <- final_results %>%
 rownames(final_results) <- NULL
 custom_order <- c("(Intercept)", "Need_for_Cognition", "Need_for_closure", "Susceptibility_to_persuasion",
                   "Skepticism", "AI_Expertise", "Detail", "Formality", "Length", "Persuasiveness", "Structure",
-                  "Need_for_Cognition:Detail", "Need_for_Cognition:Formality", "Need_for_Cognition:Length",
+                  "Domain", "Need_for_Cognition:Detail", "Need_for_Cognition:Formality", "Need_for_Cognition:Length",
                   "Need_for_Cognition:Persuasiveness", "Need_for_Cognition:Structure", "Need_for_closure:Detail", 
                   "Need_for_closure:Formality", "Need_for_closure:Length", "Need_for_closure:Persuasiveness", 
                   "Need_for_closure:Structure", "Susceptibility_to_persuasion:Detail", "Susceptibility_to_persuasion:Formality",
